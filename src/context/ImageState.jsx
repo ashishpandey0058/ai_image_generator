@@ -10,10 +10,10 @@ const ImageState = ({ children }) => {
   const handleText = (e) => setText(e.target.value);
   const query = async (data) => {
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
+      "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
       {
         headers: {
-          Authorization: "Bearer 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",
+          Authorization: "Bearer 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",
         },
         method: "POST",
         body: JSON.stringify(data),

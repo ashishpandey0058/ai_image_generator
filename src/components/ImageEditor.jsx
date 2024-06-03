@@ -80,7 +80,7 @@ const ImageEditor = () => {
     <div className="flex flex-col gap-4 justify-center items-center">
       <canvas
         ref={canvasRef}
-        className="border rounded-xl h-[30vh] sm:h-auto"
+        className="border rounded-xl h-[30vh] sm:h-[60vh]"
       ></canvas>
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
