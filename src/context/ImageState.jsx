@@ -13,7 +13,7 @@ const ImageState = ({ children }) => {
       "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
       {
         headers: {
-          Authorization: "Bearer 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",
+          Authorization: "Bearer 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",
         },
         method: "POST",
         body: JSON.stringify(data),
