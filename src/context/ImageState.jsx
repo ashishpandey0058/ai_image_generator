@@ -13,7 +13,7 @@ const ImageState = ({ children }) => {
       "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5",
       {
         headers: {
-          Authorization: "Bearer your_api_key",
+          Authorization: "Bearer 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",
         },
         method: "POST",
         body: JSON.stringify(data),
